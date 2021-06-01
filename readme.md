@@ -135,10 +135,3 @@ class FakeQuantFunc(torch.autograd.Function):
 ## Layer实现
 和nn.layer初始化部分相同只不过是在预测时和训练时要进行区分。
 
-验证：
-  torch官方也实现了训练时感知量化，
-
-对比测试:
-  
-
-tensornboard
